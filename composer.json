@@ -1,0 +1,26 @@
+{
+    "name": "massane/momo-payment",
+    "description": "Un package PHP pour gérer les paiements via MTN Momo Congo",
+    "type": "library",
+    "keywords": ["momo", "payment", "mtn", "momo-payment"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Massane",
+            "email": "lickayemassaneleonel@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MomoPayment\\": "src/"
+        }
+    },
+    "require": {
+        "ext-curl": "*",
+        "ext-json": "*",
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "^7.0",
+        "monolog/monolog": "^3.8"
+    },
+    "minimum-stability": "stable"
+}
