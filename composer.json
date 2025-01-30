@@ -1,5 +1,5 @@
 {
-    "name": "massane/momo-payment",
+    "name": "lickayemassane/momo-payment",
     "description": "Un package PHP pour gérer les paiements via MTN Momo Congo",
     "type": "library",
     "keywords": ["momo", "payment", "mtn", "momo-payment"],
