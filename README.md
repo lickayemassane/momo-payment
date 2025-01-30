@@ -24,7 +24,7 @@ Vous pouvez obtenir ces informations après avoir créé un compte sur le portai
    Assurez-vous d'avoir installé les dépendances nécessaires via **Composer** :
 
    ```bash
-   composer require massane/massane/momo-payment
+   composer require massane/momo-payment
    ```
 
 2. **Configuration des clés API** :
