@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+# momo-payment
+=======
 
 # Intégration du Paiement Momo (MTN)
 
@@ -19,9 +22,10 @@ Vous pouvez obtenir ces informations après avoir créé un compte sur le portai
 1. **Installation des dépendances** :
 
    Assurez-vous d'avoir installé les dépendances nécessaires via **Composer** :
-
+   
+  Require 'vendor/autoload.php' si votre projet vous le codé  en frome scrash
    ```bash
-   composer require massane/massane/momo-payment
+ composer require lickayemassane/momo-payment
    ```
 
 2. **Configuration des clés API** :
@@ -111,3 +115,4 @@ try {
     echo 'Erreur : ' . $e->getMessage();
 }
 ```
+>>>>>>> 70dc297 (IniInitial commit)

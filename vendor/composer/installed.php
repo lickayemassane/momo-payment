@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
-        'name' => 'leonel/momo-payment',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'name' => 'lickayemassane/momo-payment',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '017c6baaf8512e43beff2b41f83b3a4662ba023d',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -37,21 +37,12 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'leonel/momo-payment' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+        'lickayemassane/momo-payment' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '017c6baaf8512e43beff2b41f83b3a4662ba023d',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
-        'monolog/monolog' => array(
-            'pretty_version' => '3.8.1',
-            'version' => '3.8.1.0',
-            'reference' => 'aef6ee73a77a66e404dd6540934a9ef1b3c855b4',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../monolog/monolog',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
@@ -98,21 +89,6 @@
             'dev_requirement' => false,
             'provided' => array(
                 0 => '1.0',
-            ),
-        ),
-        'psr/log' => array(
-            'pretty_version' => '3.0.2',
-            'version' => '3.0.2.0',
-            'reference' => 'f16e1d5863e37f8d8c2a01719f5b34baa2b714d3',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../psr/log',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
-        'psr/log-implementation' => array(
-            'dev_requirement' => false,
-            'provided' => array(
-                0 => '3.0.0',
             ),
         ),
         'ralouphie/getallheaders' => array(

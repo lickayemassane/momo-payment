@@ -30,22 +30,7 @@ class Disbursement
         $this->apiKey = $apiKey;
         $this->subscriptionKey = $subscriptionKey;
         $this->baseUrl = $baseUrl;
-       
-
-        // Création du HandlerStack et ajout du middleware pour loguer les requêtes
-        $stack = HandlerStack::create();
-        
-        // Création d'un logger Monolog compatible avec Psr\Log\LoggerInterface
-        $logger = new Logger('logger', [new StreamHandler('php://stdout', Logger::DEBUG)]);
-
-        // Ajout du middleware de log
-        $stack->push(Middleware::log(
-            $logger,  // Le logger ici doit implémenter Psr\Log\LoggerInterface
-            new MessageFormatter('{req_body} - {res_body}')
-        ));
-
-        // Initialisation du client Guzzle avec le HandlerStack
-        $this->client = new Client(['handler' => $stack]);
+        $this->client = new Client();
     }
 
     // Get the access token from MoMo API
