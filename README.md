@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# momo-payment
-=======
+![Logo](https://www.cleanpay.africa/wp-content/uploads/2020/10/paiement-par-mtn-mobile-money-en-ligne.jpg)
 
 # Intégration du Paiement Momo (MTN)
 
@@ -80,7 +78,7 @@ $environmentTarget = 'mtncongo';  // mtncongo pour la production
 $disbursement = new Disbursement($userId, $apiKey, $subscriptionKey, $baseUrl, $environmentTarget);
 
 // Effectuer un transfert de 100 XAF vers le numéro de téléphone '069832678'
-$response = $disbursement->disburse('069832678', 100);
+$response = $disbursement->disburse('060000000', 100);
 
 // Afficher la réponse JSON de l'API
 echo $response;
