@@ -3,7 +3,7 @@ require '../vendor/autoload.php';
 
 use MomoPayment\Verify;
 // API kEY
-define('COLLECTION_SUBSCRIPTION_KEY', '');//subcription key
+define('COLLECTION_SUBSCRIPTION_KEY', '');//subcription key collection
 
  $accessToken=""; //token de la transaction
 
