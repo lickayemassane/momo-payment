@@ -15,11 +15,13 @@ class ComposerStaticInit35fd3797992a8e49220c78f40ca9abbb
     public static $prefixLengthsPsr4 = array (
         'P' => 
         array (
+            'Psr\\Log\\' => 8,
             'Psr\\Http\\Message\\' => 17,
             'Psr\\Http\\Client\\' => 16,
         ),
         'M' => 
         array (
+            'Monolog\\' => 8,
             'MomoPayment\\' => 12,
         ),
         'G' => 
@@ -31,6 +33,10 @@ class ComposerStaticInit35fd3797992a8e49220c78f40ca9abbb
     );
 
     public static $prefixDirsPsr4 = array (
+        'Psr\\Log\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/log/src',
+        ),
         'Psr\\Http\\Message\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/http-factory/src',
@@ -39,6 +45,10 @@ class ComposerStaticInit35fd3797992a8e49220c78f40ca9abbb
         'Psr\\Http\\Client\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/http-client/src',
+        ),
+        'Monolog\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
         ),
         'MomoPayment\\' => 
         array (

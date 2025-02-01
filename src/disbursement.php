@@ -1,12 +1,9 @@
 <?php
+namespace MomoPayment;
 
 use GuzzleHttp\Client;
-use GuzzleHttp\Middleware;
-use GuzzleHttp\HandlerStack;
-use GuzzleHttp\MessageFormatter;
 use Exception;
-use Monolog\Logger;
-use Monolog\Handler\StreamHandler;;
+
 
 class Disbursement
 { // Disbursement subscription key

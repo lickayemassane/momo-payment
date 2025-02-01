@@ -19,7 +19,8 @@
         "ext-curl": "*",
         "ext-json": "*",
         "php": ">=7.4",
-        "guzzlehttp/guzzle": "^7.0"
+        "guzzlehttp/guzzle": "^7.0",
+        "monolog/monolog": "^3.8"
     },
     "minimum-stability": "stable"
 }
